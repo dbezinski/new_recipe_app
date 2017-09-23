@@ -1,0 +1,13 @@
+{% extends 'recipe_app/base.html' %}
+{% block title %}Recipe Details{% endblock %}
+{% block content %}
+    <h1>{{ recipe.recipe_name }}</h1>
+    <h2>Category - {{ recipe.category }}</h2>
+
+    <ul>
+        {% for ingredient in recipe.ingredients_set.all %}
+            <li>{{ ingredient.ingredients }}</li>
+        {% endfor %}
+    </ul>
+
+{% endblock %}
