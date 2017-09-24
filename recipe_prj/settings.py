@@ -28,6 +28,7 @@ INSTALLED_APPS = [
     'django_forms_bootstrap',
     'recipe_app',
     'accounts',
+    'reusable_blog',
 ]
 
 AUTH_USER_MODEL = 'accounts.User'
@@ -121,5 +122,10 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "static"),
 )
+
+# Stripe environment variables
+STRIPE_PUBLISHABLE = os.getenv('STRIPE_PUBLISHABLE', 'pk_test_lRJ210v4A3Z1wdwpi5469nZj')
+STRIPE_SECRET = os.getenv('STRIPE_SECRET', 'sk_test_WQE2qg0XNQ0kqIOw8n0Ht0zu')
+
 
 
