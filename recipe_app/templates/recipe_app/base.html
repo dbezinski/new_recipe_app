@@ -4,8 +4,15 @@
     <title>{% block title %}Recipe App{% endblock %}</title>
     <head>
         <title>Recipe App</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/cerulean/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="{% static 'recipe/style.css' %}" />
+        <link rel="stylesheet" href="{% static "css/blog.css" %}">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        {% block head_js %}{% endblock %}
     </head>
 <body>
 <nav class="navbar navbar-default">
@@ -29,8 +36,8 @@
                     </a>
                 </li>
                 <li class="">
-                    <a href="#">
-                        <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>&nbsp; Blog
+                    <a href="blog/">
+                        <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Our Blog
                     </a>
                 </li>
             </ul>
@@ -69,9 +76,5 @@
     {% endblock %}
 </div>
 
-
-<!-- script references -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
