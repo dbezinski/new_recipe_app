@@ -17,8 +17,8 @@ def register(request):
         if form.is_valid():
             try:
                 customer = stripe.Charge.create(
-                    amount=999,
-                    currency="USD",
+                    amount=499,
+                    currency="GBP",
                     description=form.cleaned_data['email'],
                     card=form.cleaned_data['stripe_id'],
                 )
