@@ -1,11 +1,13 @@
 {% extends 'recipe_app/base.html' %}
 {% block content %}
-    <h2>Here are my all recipes:</h2>
+    <div class="row panel form-container">
+    <h1>Here are my all recipes:</h1>
     <ul>
         {% for recipe in all_recipes %}
             <li><a href="{% url 'detail' recipe.id %}">{{ recipe.recipe_name }}</a></li>
         {% endfor %}
     </ul>
+    </div>
 {% endblock %}
 
 

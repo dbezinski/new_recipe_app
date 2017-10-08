@@ -1,12 +1,126 @@
+@font-face {
+    font-family: tb;
+    src: url('fonts/brajanusbricks.ttf');
+}
+
 body {
     font-family: Arial, serif;
+    background-image: url(images/bg.jpg);
+    background-position: top left;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+li {
+    font-size: 12pt;
 }
 
 h1 a {
-    color: #555555;
     text-decoration: none;
 }
 
-.navbar {
-    border-radius: 0;
+h1 {
+    font-family: Georgia, "Palatino Linotype", serif;
+    text-align: center;
+    color: #92ac64;
+    padding: 0;
 }
+
+.navbar-collapse h1 {
+    padding-top: 20px;
+    font-family: tb, Arial, serif;
+}
+
+a {
+    color: #5a5a5b;
+}
+
+a:hover, a:focus {
+    color: rgba(61, 61, 61, 0.75);
+}
+
+input {
+    width: 40%;
+}
+
+
+.navbar-collapse {
+    background-color: rgba(255, 255, 255, 0.9);
+
+}
+
+
+.nav {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 1%;
+    padding-bottom: 50px;
+
+}
+.navbar-nav > li > a {
+    font-size: 20px;
+}
+.navbar-nav > li > a:hover {
+    background: none;
+    color: #5a5a5b;
+}
+.navbar-nav > li > a:focus {
+    outline: none;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.form-container {
+    margin-top: 50px;
+    padding: 40px;
+}
+
+.panel {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#validate_card_btn {
+    width: 100px;
+}
+
+/* Box Shadow Effect */
+.effect6
+{
+  	position:relative;
+    -webkit-box-shadow:0 10px 10px rgba(0, 0, 0, 0.7), 0 0 40px rgba(0, 0, 0, 0.7) inset;
+       -moz-box-shadow:0 10px 10px rgba(0, 0, 0, 0.7), 0 0 40px rgba(0, 0, 0, 0.7) inset;
+            box-shadow:0 10px 10px rgba(0, 0, 0, 0.7), 0 0 40px rgba(0, 0, 0, 0.7) inset;
+}
+.effect6:before, .effect6:after
+{
+	content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:50%;
+    bottom:0;
+    left:10px;
+    right:10px;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.effect6:after
+{
+	right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+
+
+

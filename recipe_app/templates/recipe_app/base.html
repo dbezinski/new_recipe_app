@@ -8,15 +8,17 @@
         <meta name="description" content="">
         <meta name="author" content="">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/cerulean/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="{% static 'recipe/style.css' %}" />
         <link rel="stylesheet" href="{% static "css/blog.css" %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'recipe/style.css' %}" />
+        <link rel="stylesheet" type="text/css" href="{% static 'recipe/hover.css' %}" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
         {% block head_js %}{% endblock %}
     </head>
 <body>
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
+<nav>
+    <div class="container-fluid  effect6">
         <!-- Header -->
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#topNavBar">
@@ -24,49 +26,50 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Great Food, Fast!</a>
         </div>
 
-        <!-- Items left-->
         <div class="collapse navbar-collapse" id="topNavBar">
-            <ul class="nav navbar-nav">
-                <li class="active">
+            <h1>Great Food, Fast</h1>
+            <ul class="nav navbar-nav snip1217">
+            {% with url_name=request.resolver_match.url_name %}
+                <li class="{% if url_name == 'index' %}current{% endif %}">
                     <a href="{% url 'index' %}">
                         <span class="glyphicon glyphicon-book" aria-hidden="true"></span>&nbsp; Recipes
                     </a>
                 </li>
-                <li class="">
-                    <a href="blog/">
-                        <span class="glyphicon glyphicon-comment" aria-hidden="true"></span>Our Blog
+                <li class="{% if url_name == 'post_list' %}current{% endif %}">
+                    <a href="{% url 'post_list' %}">
+                        <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Our Blog
                     </a>
                 </li>
-            </ul>
-
-            <!-- Items right-->
-            <ul class="nav navbar-nav navbar-right">
-                <li class="">
+                <li class="{% if url_name == 'recipe-add' %}current{% endif %}">
                     <a href="{% url 'recipe-add' %}">
                         <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp; Add Recipe
                     </a>
                 </li>
+                <li><a href="/products/">Products</a></li>
 
                 {% if user.is_authenticated %}
-                    <li><a href="{% url 'profile' %}">Profile</a></li>
+                    <li class="{% if url_name == 'profile' %}current{% endif %}">
+                        <a href="{% url 'profile' %}">Profile</a>
+                    </li>
                     <li><a href="{% url 'logout' %}">
-                        <span class="glyphicon glyphicon-off" aria-hidden="true"></span>Log Out</a>
+                        <span class="glyphicon glyphicon-off" aria-hidden="true"></span> Log Out</a>
                     </li>
 
                 {% else %}
-                    <li><a href="{% url 'register' %}">Register</a></li>
-                        <li><a href="{% url 'login' %}">
-                            <span class="glyphicon glyphicon-off" aria-hidden="true"></span>Log In</a>
-                        </li>
+                    <li class="{% if url_name == 'register' %}current{% endif %}">
+                        <a href="{% url 'register' %}">
+                            <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Subscribe</a>
+                    </li>
+                    <li class="{% if url_name == 'login' %}current{% endif %}">
+                        <a href="{% url 'login' %}">
+                        <span class="glyphicon glyphicon-off" aria-hidden="true"></span> Log In</a>
+                    </li>
                 {% endif %}
-
+            {% endwith %}
             </ul>
-
         </div>
-
     </div>
 </nav>
 
@@ -75,6 +78,5 @@
     {% block content %}
     {% endblock %}
 </div>
-
 </body>
 </html>

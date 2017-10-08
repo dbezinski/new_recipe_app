@@ -1,5 +1,6 @@
 {% extends "recipe_app/base.html" %}
 {% load bootstrap_tags %}
+{% load bootstrap_tags %}
 {% load staticfiles %}
 
 {% block head_js %}
@@ -13,16 +14,18 @@
 {% endblock %}
 
 {% block content %}
-  <form role="form" method="post" id="register-form" action="{% url 'register' %}">
-    <div id="credit-card-errors" style="display:none">
-      <div class="alert-message block-message error" id="stripe-error-message"></div>
-    </div>
+    <div class="row panel form-container">
+      <form role="form" method="post" id="register-form" action="{% url 'register' %}">
+        <div id="credit-card-errors" style="display:none">
+          <div class="alert-message block-message error" id="stripe-error-message"></div>
+        </div>
 
-    <legend>Create a new account</legend>
-    {% csrf_token %}
-    {{ form|as_bootstrap }}
-    <div class="form-group">
-      <input class="btn btn-primary" id="validate_card_btn" name="commit" type="submit" value="Validate Credit Card">
+        <legend>Create a new account</legend>
+        {% csrf_token %}
+        {{ form|as_bootstrap }}
+        <div class="form-group">
+          <input class="btn btn-primary" id="validate_card_btn" name="commit" type="submit" value="Validate Credit Card">
+        </div>
+      </form>
     </div>
-  </form>
 {% endblock %}
