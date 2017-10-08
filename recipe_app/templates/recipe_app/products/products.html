@@ -1,0 +1,27 @@
+{% extends "recipe_app/base.html" %}
+{% block content %}
+    <div class="row panel form-container">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Product Image</th>
+                    <th>Name</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for product in products %}
+                    <tr>
+                        <td><img src="{{ product.image.url }}" class="img-responsive" alt=""></td>
+                        <td>{{ product.name }}</td>
+                        <td>{{ product.description }}</td>
+                        <td>{{ product.price }}</td>
+                        <td><input class="btn btn-primary" id="validate_card_btn" name="commit" type="submit" value="Buy Now"></td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

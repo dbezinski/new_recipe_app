@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     'recipe_app',
     'accounts',
     'reusable_blog',
+    'products',
 ]
 
 AUTH_USER_MODEL = 'accounts.User'
@@ -127,5 +128,5 @@ STATICFILES_DIRS = (
 STRIPE_PUBLISHABLE = os.getenv('STRIPE_PUBLISHABLE', 'pk_test_lRJ210v4A3Z1wdwpi5469nZj')
 STRIPE_SECRET = os.getenv('STRIPE_SECRET', 'sk_test_WQE2qg0XNQ0kqIOw8n0Ht0zu')
 
-
-
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
