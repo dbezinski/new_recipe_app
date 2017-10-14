@@ -18,7 +18,21 @@
                         <td>{{ product.name }}</td>
                         <td>{{ product.description }}</td>
                         <td>{{ product.price }}</td>
-                        <td><input class="btn btn-primary" id="validate_card_btn" name="commit" type="submit" value="Buy Now"></td>
+                        <td><form action="/payment-accepted/" method="POST">
+
+                                {%csrf_token%}
+                                <script
+                                    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                                    data-key="pk_test_lRJ210v4A3Z1wdwpi5469nZj"
+                                    data-amount="{% widthratio product.price 1 100 %}"
+                                    data-name="{{ product.name }}"
+                                    data-description="{{ product.description }}"
+                                    data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+                                    data-locale="auto"
+                                    data-zip-code="true"
+                                    data-currency="gbp">
+                                </script>
+                            </form></td>
                     </tr>
                 {% endfor %}
             </tbody>
