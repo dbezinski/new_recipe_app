@@ -33,7 +33,11 @@ def register(request):
     args = {'form': form}
     args.update(csrf(request))
 
+
     return render(request, 'recipe_app/register.html', args)
+
+def profile(request):
+    return render(request, 'recipe_app/profile.html')
 
 
 def login(request):

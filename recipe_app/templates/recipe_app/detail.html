@@ -2,14 +2,31 @@
 
 {% block title %}Recipe Details{% endblock %}
 {% block content %}
-    <div class="row panel form-container">
-        <h1>{{ recipe.recipe_name }}</h1>
-        <h2>Category - {{ recipe.category }}</h2>
 
-        <ul>
+<section id="container" class="">
+
+  <div id="product-img">
+    <img src="{{ recipe.image }}" title="Recipe Image" class="nike-logo"/>
+  </div>
+
+  <div id="product-info">
+    <div class="wrapper">
+      <h1 class="detail_h1">{{ recipe.recipe_name }}</h1>
+      <h2 class="detail_h2">Category - {{ recipe.category }}</h2>
+      <h2 class="detail_h2">Difficulty - {{ recipe.difficulty }}</h2>
+      <h2 class="detail_h2">Preparation Time - {{ recipe.prep_time }}</h2>
+      <h2 class="detail_h2">Ingredients:
+          <ul>
             {% for ingredient in recipe.ingredients_set.all %}
                 <li>{{ ingredient.ingredients }}</li>
             {% endfor %}
-        </ul>
+          </ul>
+      </h2>
     </div>
+
+    <h2 class="detail_h2">Description</h2>
+    <p class="detail_p">{{ recipe.description }}</p>
+    <h2 class="detail_h2"><a href="{{ recipe.instructions_url }}">Visit Website for Instructions</a></h2>
+</div>
+</section>
 {% endblock %}

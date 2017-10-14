@@ -1,12 +1,11 @@
 {% extends 'recipe_app/base.html' %}
-{% load bootstrap_tags %}
 {% block title %}Add a New Recipe{% endblock %}
 {% block content %}
 <div class="row panel form-container">
     <div class="">
         <form class="form-horizontal" action="" method="post" enctype="multipart/form-data">
             {% csrf_token %}
-            <h1>Please use our form to add your own recipe</h1><br>
+            <h3>Please use our form to add your own recipe</h3><br>
             {% include 'recipe_app/form-template.html' %}
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">

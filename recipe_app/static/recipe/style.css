@@ -11,6 +11,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+ul {
+    list-style: none;
+}
 
 li {
     font-size: 12pt;
@@ -20,24 +23,38 @@ h1 a {
     text-decoration: none;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, "Palatino Linotype", serif;
+    color: #4a6130;
+    padding: 0;
+}
+h3, h1 {
+    text-align: center;
+    color: #4a6130;
+}
+
+.blog_h3{
+    text-align: left;
+}
+
+.info {
     font-family: Georgia, "Palatino Linotype", serif;
     text-align: center;
-    color: #92ac64;
-    padding: 0;
+    color: #4a6130;
+    font-size: 12pt;
 }
 
 .navbar-collapse h1 {
-    padding-top: 20px;
+    padding-top: 10px;
     font-family: tb, Arial, serif;
 }
 
 a {
-    color: #5a5a5b;
+    color: #70894a;
 }
 
 a:hover, a:focus {
-    color: rgba(61, 61, 61, 0.75);
+    color: #92ac64
 }
 
 input {
@@ -56,7 +73,7 @@ input {
     left: 50%;
     transform: translateX(-50%);
     margin-top: 1%;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 
 }
 .navbar-nav > li > a {
@@ -76,17 +93,19 @@ input {
 }
 
 .form-container {
-    margin-top: 50px;
-    padding: 40px;
+    margin-top: 30px;
+    padding: 20px;
 }
 
 .panel {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
-#buy_btn {
-    width: 100px;
-}
+
 
 /* Box Shadow Effect */
 .effect6
@@ -129,10 +148,6 @@ input {
      color: #5a5a5b;
     }
 
-    a {
-        color: #ccc;
-    }
-
     /*-------------------------------------*/
 
     .cf:before, .cf:after{
@@ -153,6 +168,7 @@ input {
 
     .form-wrapper {
         width: 70%;
+        margin-top: 35px;
         padding: 15px;
         background: #444;
         background: rgba(0,0,0,.2);

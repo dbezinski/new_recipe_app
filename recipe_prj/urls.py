@@ -20,7 +20,7 @@ urlpatterns = [
     url(r'^reusable_blog/', include('reusable_blog.urls')),
 
     #Products URLs:
-    url(r'^products/$', product_views.all_products),
+    url(r'^products/$', product_views.all_products, name='products'),
 ]
 
 if settings.DEBUG:

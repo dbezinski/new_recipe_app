@@ -7,6 +7,7 @@ class Recipe(models.Model):
 
     recipe_name = models.CharField(max_length=250)
     category = models.CharField(max_length=50)
+    description = models.CharField(max_length=1000)
     image = models.CharField(max_length=1000)
     prep_time = models.CharField(max_length=250)
     difficulty = models.CharField(max_length=50)

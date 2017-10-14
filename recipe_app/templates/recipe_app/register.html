@@ -6,18 +6,28 @@
 {% endblock %}
 
 {% block content %}
-    <div class="row panel form-container">
-      <form role="form" method="post" id="register-form" action="{% url 'register' %}">
-        <div id="credit-card-errors" style="display:none">
-          <div class="alert-message block-message error" id="stripe-error-message"></div>
-        </div>
+<div class="login-page">
+    <div class="form">
 
-        <legend>Create a new account</legend>
-        {% csrf_token %}
-        {{ form|as_bootstrap }}
-        <div class="form-group">
+        <form class="register-form" role="form" method="post" id="register-form" action="{% url 'register' %}">
+
+                {% csrf_token %}
+                {{ form|as_bootstrap }}
             <button type="submit" class="btn btn-primary">Create account</button>
-        </div>
-      </form>
-    </div>
+            <p class="message">Already registered? <a href="{% url 'login' %}">Sign In</a></p>
+        </form>
+
+         <form class="login-form" role="form" method="post" action="{% url 'login' %}">
+            <legend>Register</legend>
+                {% csrf_token %}
+                {{ form| as_bootstrap }}
+            <button type="submit" class="btn btn-primary">Create account</button>
+            <p class="message">Already registered? <a href="{% url 'login' %}">Sign In</a></p>
+        </form>
+
+
+  </div>
+</div>
+
+
 {% endblock %}

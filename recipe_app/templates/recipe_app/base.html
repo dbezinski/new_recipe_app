@@ -9,8 +9,12 @@
         <meta name="author" content="">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/cerulean/bootstrap.min.css">
         <link rel="stylesheet" href="{% static "css/blog.css" %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'recipe/detail.css' %}" />
+        <link rel="stylesheet" type="text/css" href="{% static 'recipe/login.css' %}" />
+        <link rel="stylesheet" type="text/css" href="{% static 'recipe/footer.css' %}" />
         <link rel="stylesheet" type="text/css" href="{% static 'recipe/style.css' %}" />
         <link rel="stylesheet" type="text/css" href="{% static 'recipe/hover.css' %}" />
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
@@ -34,24 +38,26 @@
             {% with url_name=request.resolver_match.url_name %}
                 <li class="{% if url_name == 'index' %}current{% endif %}">
                     <a href="{% url 'index' %}">
-                        <span class="glyphicon glyphicon-book" aria-hidden="true"></span>&nbsp; Recipes
+                        <span class="glyphicon glyphicon-book" aria-hidden="true"></span>&nbsp;Recipes
                     </a>
                 </li>
                 <li class="{% if url_name == 'post_list' %}current{% endif %}">
                     <a href="{% url 'post_list' %}">
-                        <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Our Blog
+                        <span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Blog
                     </a>
                 </li>
                 <li class="{% if url_name == 'recipe-add' %}current{% endif %}">
                     <a href="{% url 'recipe-add' %}">
-                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp; Add Recipe
+                        <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>&nbsp;Add Recipe
                     </a>
                 </li>
-                <li><a href="/products/">Products</a></li>
+                <li><a href="{% url 'products' %}">
+                    <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> Products</a></li>
 
                 {% if user.is_authenticated %}
                     <li class="{% if url_name == 'profile' %}current{% endif %}">
-                        <a href="{% url 'profile' %}">Profile</a>
+                        <a href="{% url 'profile' %}">
+                            <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Profile</a>
                     </li>
                     <li><a href="{% url 'logout' %}">
                         <span class="glyphicon glyphicon-off" aria-hidden="true"></span> Log Out</a>
@@ -60,7 +66,7 @@
                 {% else %}
                     <li class="{% if url_name == 'register' %}current{% endif %}">
                         <a href="{% url 'register' %}">
-                            <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Subscribe</a>
+                            <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Register</a>
                     </li>
                     <li class="{% if url_name == 'login' %}current{% endif %}">
                         <a href="{% url 'login' %}">
@@ -78,5 +84,23 @@
     {% block content %}
     {% endblock %}
 </div>
+
+<div class="footer">
+  <div id="button"></div>
+    <div id="container-footer">
+        <div id="cont">
+            <div class="footer_center">
+                <h6><p class="contact_us">Contact Us: </p><br>
+                   <p><b>How your grandparents would do it:</b> 12 New Square, Bournemouth, Dorset, BH1 2HP</p><br>
+                    <p><b>How your parents would do it:</b> Phone: 0123 98766543, Email: info@recipes.com</p><br>
+                    <p><b>How you would do it:</b>
+                        <a href="{% url 'post_list' %}">Please visit our Blog</a>
+                    </p>
+                </h6>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="{% static 'js/login.js' %}"></script>
 </body>
 </html>
