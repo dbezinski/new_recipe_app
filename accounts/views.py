@@ -15,38 +15,25 @@ def register(request):
     if request.method == 'POST':
         form = UserRegistrationForm(request.POST)
         if form.is_valid():
-            try:
-                customer = stripe.Charge.create(
-                    amount=499,
-                    currency="GBP",
-                    description=form.cleaned_data['email'],
-                    card=form.cleaned_data['stripe_id'],
-                )
-                if customer.paid:
-                    form.save()
-                    user = auth.authenticate(email=request.POST.get('email'),
-                                             password=request.POST.get('password1'))
-                    if user:
-                        auth.login(request, user)
-                        messages.success(request, "You have successfully registered")
-                        return redirect(reverse('profile'))
-                    else:
-                        messages.error(request, "unable to log you in at this time!")
-                else:
-                    messages.error(request, "We were unable to take a payment with that card!")
-            except stripe.error.CardError, e:
-                messages.error(request, "Your card was declined!")
+            form.save()
+
+            user = auth.authenticate(email=request.POST.get('email'),
+                                     password=request.POST.get('password1'))
+
+            if user:
+                messages.success(request, "You have successfully registered")
+                return redirect(reverse('profile'))
+
+            else:
+                messages.error(request, "unable to log you in at this time!")
+
     else:
-        today = datetime.date.today()
         form = UserRegistrationForm()
 
-    args = {'form': form, 'publishable': settings.STRIPE_PUBLISHABLE}
+    args = {'form': form}
     args.update(csrf(request))
 
     return render(request, 'recipe_app/register.html', args)
-
-def profile(request):
-    return render(request, 'recipe_app/profile.html')
 
 
 def login(request):

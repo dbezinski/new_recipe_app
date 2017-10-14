@@ -6,9 +6,10 @@ from django.utils import timezone
 class AccountUserManager(UserManager):
     def _create_user(self, username, email, password,
                      is_staff, is_superuser, **extra_fields):
-
+        """
+       Creates and saves a User with the given username, email and password.
+       """
         now = timezone.now()
-
         if not email:
             raise ValueError('The given username must be set')
 
@@ -24,6 +25,4 @@ class AccountUserManager(UserManager):
 
 
 class User(AbstractUser):
-    stripe_id = models.CharField(max_length=40, default='')
-
     objects = AccountUserManager()
