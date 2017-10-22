@@ -2,8 +2,6 @@ from django.views import generic
 from django.views.generic.edit import CreateView
 from .models import Recipe
 from django.http import request
-
-
 from django.shortcuts import render
 
 class IndexView(generic.ListView):
@@ -30,8 +28,11 @@ class RecipeCreate(CreateView):
     model = Recipe
     fields = ['recipe_name', 'category', 'image', 'prep_time', 'difficulty', 'instructions_url']
 
+
 def get_index(request):
     return render(request, 'recipe_app/index.html')
 
+def payment_accepted(request):
+    return render(request, 'recipe_app/paymen-accepted.html')
 
 

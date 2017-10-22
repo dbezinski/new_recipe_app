@@ -6,6 +6,8 @@ from products import views as product_views
 from django.conf import settings
 from django.conf.urls.static import static
 
+from recipe_app import views
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^recipe_app/', include('recipe_app.urls')),
@@ -21,6 +23,7 @@ urlpatterns = [
 
     #Products URLs:
     url(r'^products/$', product_views.all_products, name='products'),
+    url(r'payment-accepted/$', views.payment_accepted, name='payment-accepted'),
 ]
 
 if settings.DEBUG:

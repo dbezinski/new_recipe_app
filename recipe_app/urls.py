@@ -9,4 +9,5 @@ urlpatterns = [
     url(r'recipe/add/$', views.RecipeCreate.as_view(), name='recipe-add'),
 
     url(r'^$', views.get_index, name='index'),
+
     ]
