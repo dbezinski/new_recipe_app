@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4cb9c0c-9811-4c19-b408-299ae295318a" name="Default" comment="" />
+    <list default="true" id="e4cb9c0c-9811-4c19-b408-299ae295318a" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recipe_app/static/js/stripe.js" afterPath="$PROJECT_DIR$/recipe_app/static/js/stripe.js" />
+    </list>
     <ignored path="recipe_prj.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -74,31 +76,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/recipe_prj/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="products.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="products.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/recipe_app/templates/recipe_app/products/products.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="664">
+            <state relative-caret-position="858">
               <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="stripe.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="stripe.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/recipe_app/static/js/stripe.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="12" />
+            <state relative-caret-position="396">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -191,8 +183,8 @@
         <option value="$PROJECT_DIR$/settings/staging.py" />
         <option value="$PROJECT_DIR$/requirements/base.txt" />
         <option value="$PROJECT_DIR$/recipe_prj/settings.py" />
-        <option value="$PROJECT_DIR$/recipe_app/static/js/stripe.js" />
         <option value="$PROJECT_DIR$/recipe_app/templates/recipe_app/products/products.html" />
+        <option value="$PROJECT_DIR$/recipe_app/static/js/stripe.js" />
       </list>
     </option>
   </component>
@@ -1125,7 +1117,7 @@
         <state relative-caret-position="352">
           <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding>
-            <element signature="e#227#236#0" expanded="true" />
+            <element signature="e#227#236#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1180,18 +1172,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recipe_app/static/js/stripe.js">
+    <entry file="file://$PROJECT_DIR$/recipe_app/templates/recipe_app/products/products.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="858">
+          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/recipe_app/templates/recipe_app/products/products.html">
+    <entry file="file://$PROJECT_DIR$/recipe_app/static/js/stripe.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="664">
-          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
+        <state relative-caret-position="396">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
           <folding />
         </state>
       </provider>
