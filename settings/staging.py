@@ -1,4 +1,5 @@
 from base import *
+import dj_database_url
 
 DEBUG = False
 
@@ -9,11 +10,13 @@ DATABASES = {
     }
 }
 
+DATABASES['default'] = dj_database_url.config("CLEARDB_DATABASE_URL")
+
 # Stripe environment variables
 STRIPE_PUBLISHABLE = os.getenv('STRIPE_PUBLISHABLE', 'pk_test_lRJ210v4A3Z1wdwpi5469nZj')
 STRIPE_SECRET = os.getenv('STRIPE_SECRET', 'sk_test_WQE2qg0XNQ0kqIOw8n0Ht0zu')
 
-SITE_URL = 'https://food-recipe-app.herokuapp.com/'
+SITE_URL = ['http://127.0.0.1:8000', 'https://food-recipe-app.herokuapp.com/']
 ALLOWED_HOSTS.append('food-recipe-app.herokuapp.com/')
 
 # Log DEBUG information to the console
