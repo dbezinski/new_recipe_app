@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4cb9c0c-9811-4c19-b408-299ae295318a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/recipe_app/templates/recipe_app/products/products.html" afterPath="$PROJECT_DIR$/recipe_app/templates/recipe_app/products/products.html" />
-    </list>
+    <list default="true" id="e4cb9c0c-9811-4c19-b408-299ae295318a" name="Default" comment="" />
     <ignored path="recipe_prj.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
