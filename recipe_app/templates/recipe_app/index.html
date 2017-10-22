@@ -1,11 +1,18 @@
 {% extends 'recipe_app/base.html' %}
 {% block content %}
+
+
     <div class="row panel form-container">
-        <h3>Search for recipes you can make with the ingredients you might have at home.</h3>
+        <h1>
+            <ul class="text-effect hidden1">
+                <li>G</li><li>reat Food, Fas</li><li>t</li>
+            </ul>
+        </h1>
+        <h3>Search for recipes you can make with the ingredients you might have at home.</h3><br><br>
         <ul>
+        <h4>Look what we found!</h4>
             {% for recipe in all_recipes %}
                 <li>
-                    <h4>Look what we found!</h4>
                     <a href="{% url 'detail' recipe.id %}">
                         {{ recipe.recipe_name }}
                     </a>

@@ -8,24 +8,13 @@
 {% block content %}
 <div class="login-page">
     <div class="form">
-
-        <form class="register-form" role="form" method="post" id="register-form" action="{% url 'register' %}">
-
-                {% csrf_token %}
-                {{ form|as_bootstrap }}
-            <button type="submit" class="btn btn-primary">Create account</button>
-            <p class="message">Already registered? <a href="{% url 'login' %}">Sign In</a></p>
-        </form>
-
-         <form class="login-form" role="form" method="post" action="{% url 'login' %}">
+        <form class="login-form" role="form" method="post" action="{% url 'register' %}">
             <legend>Register</legend>
                 {% csrf_token %}
                 {{ form| as_bootstrap }}
-            <button type="submit" class="btn btn-primary">Create account</button>
-            <p class="message">Already registered? <a href="{% url 'login' %}">Sign In</a></p>
+            <button type="submit" class="btn btn-primary">Login</button>
+           <p class="message">Already registered? <a href="{% url 'login' %}">Sign In</a></p>
         </form>
-
-
   </div>
 </div>
 
