@@ -1,0 +1,1 @@
+web: gunicorn recipe_prj.wsgi:application
