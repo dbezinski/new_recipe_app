@@ -13,7 +13,7 @@ SECRET_KEY = '&_^((5l0(8(7*fard*7+s0((qd)u(i^cp-g0!_u*e=^gvl!70z'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost', 'food-recipe-app.herokuapp.com']
 
 SITE_ID = 1
 # Application definition
