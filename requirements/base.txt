@@ -18,7 +18,7 @@ olefile==0.44
 patterns==0.3
 pbr==3.1.1
 pillow==4.2.1
-public==0.0.40.dev1
+public==0.0.0
 pytz==2017.2
 requests==2.18.4
 reusable-reusable-blog-app==1.0.0
