@@ -1,0 +1,2346 @@
+[
+{
+    "model": "sessions.session",
+    "pk": "0shafpkcp7rxtp5w8wjrl65uog049gh7",
+    "fields": {
+        "session_data": "ZmQ1NGQ0ZDQwMzA0YWI3MDM2YmI4ZjQ0NDBlMDhkNDkwNzllZjA3YTp7Il9hdXRoX3VzZXJfaGFzaCI6ImRiYzY5ZTI1ZGJjZTM3OGY5YzljYTRkZmFkZWQ3ZWY1Y2Q2YTIxNGQiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJhY2NvdW50cy5iYWNrZW5kcy5FbWFpbEF1dGgiLCJfYXV0aF91c2VyX2lkIjoiMiJ9",
+        "expire_date": "2017-10-29T16:18:25.243Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "fykgv3w813keae8bqonnypkuif5h98ei",
+    "fields": {
+        "session_data": "ZmQ1NGQ0ZDQwMzA0YWI3MDM2YmI4ZjQ0NDBlMDhkNDkwNzllZjA3YTp7Il9hdXRoX3VzZXJfaGFzaCI6ImRiYzY5ZTI1ZGJjZTM3OGY5YzljYTRkZmFkZWQ3ZWY1Y2Q2YTIxNGQiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJhY2NvdW50cy5iYWNrZW5kcy5FbWFpbEF1dGgiLCJfYXV0aF91c2VyX2lkIjoiMiJ9",
+        "expire_date": "2017-11-02T19:43:24.085Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "gs1y3qyoli9apehpzqo3amm5hgnikmbz",
+    "fields": {
+        "session_data": "OWE0NTAzMzFhNTA4YmQ4YTBjZjc2MmQzZGJmZWQxNGYxMGI2YmZjNzp7Il9hdXRoX3VzZXJfaGFzaCI6IjFhNTAxNGM1YzkxODg3MTE5YjczODdmMmY4NWVjMjU2NjM0OWVmMDgiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJhY2NvdW50cy5iYWNrZW5kcy5FbWFpbEF1dGgiLCJfYXV0aF91c2VyX2lkIjoiMTIifQ==",
+        "expire_date": "2017-10-21T19:20:58.127Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "ujberzpvgzst3m1ttycap4e4r8lc3pdo",
+    "fields": {
+        "session_data": "MzBkNDhmMTNjZmZjOGQ4YzA0NjM3ODE0NTFlYWE2MmJmNDRkMmIxNzp7Il9hdXRoX3VzZXJfaGFzaCI6ImRiYzY5ZTI1ZGJjZTM3OGY5YzljYTRkZmFkZWQ3ZWY1Y2Q2YTIxNGQiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIyIn0=",
+        "expire_date": "2017-10-23T20:24:33.138Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "vvd9wrydhjhz8ci6clk6stztqmu5slow",
+    "fields": {
+        "session_data": "ZmQ1NGQ0ZDQwMzA0YWI3MDM2YmI4ZjQ0NDBlMDhkNDkwNzllZjA3YTp7Il9hdXRoX3VzZXJfaGFzaCI6ImRiYzY5ZTI1ZGJjZTM3OGY5YzljYTRkZmFkZWQ3ZWY1Y2Q2YTIxNGQiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJhY2NvdW50cy5iYWNrZW5kcy5FbWFpbEF1dGgiLCJfYXV0aF91c2VyX2lkIjoiMiJ9",
+        "expire_date": "2017-10-30T17:28:16.972Z"
+    }
+},
+{
+    "model": "sessions.session",
+    "pk": "zru557bggkv94kfajr3vy8ysg0vzpv0v",
+    "fields": {
+        "session_data": "MzBkNDhmMTNjZmZjOGQ4YzA0NjM3ODE0NTFlYWE2MmJmNDRkMmIxNzp7Il9hdXRoX3VzZXJfaGFzaCI6ImRiYzY5ZTI1ZGJjZTM3OGY5YzljYTRkZmFkZWQ3ZWY1Y2Q2YTIxNGQiLCJfYXV0aF91c2VyX2JhY2tlbmQiOiJkamFuZ28uY29udHJpYi5hdXRoLmJhY2tlbmRzLk1vZGVsQmFja2VuZCIsIl9hdXRoX3VzZXJfaWQiOiIyIn0=",
+        "expire_date": "2017-10-31T19:32:12.146Z"
+    }
+},
+{
+    "model": "sites.site",
+    "pk": 1,
+    "fields": {
+        "domain": "example.com",
+        "name": "example.com"
+    }
+},
+{
+    "model": "recipe_app.recipe",
+    "pk": 1,
+    "fields": {
+        "recipe_name": "Homemade Cinnamon Dolce Latte",
+        "category": "Drinks",
+        "description": "2017-10-14 20:25:28.667000+00:00",
+        "image": "http://withsaltandwit.com/wp-content/uploads/2016/09/Homemade-Cinnamon-Dolce-Latte-4.jpg",
+        "prep_time": "15 Minutes",
+        "difficulty": "Easy",
+        "instructions_url": "http://withsaltandwit.com/homemade-cinnamon-dolce-latte-recipe/"
+    }
+},
+{
+    "model": "recipe_app.recipe",
+    "pk": 2,
+    "fields": {
+        "recipe_name": "Cheesy Firecracker Baked Chicken Taquitos",
+        "category": "Appetizers",
+        "description": "Cheesy Firecracker Baked Chicken Taquitos are a healthier alternative to their store bought sidekicks! Filled with gooey, spicy cheese, corn, chicken and peppers, they are super crispy thanks to a quick bake in the oven!",
+        "image": "http://withsaltandwit.com/wp-content/uploads/2016/01/Baked-Firecracker-Cheesy-Chicken-Taquitos-2.jpg",
+        "prep_time": "15 Minutes",
+        "difficulty": "Easy",
+        "instructions_url": "http://withsaltandwit.com/baked-chicken-taquitos/"
+    }
+},
+{
+    "model": "recipe_app.recipe",
+    "pk": 3,
+    "fields": {
+        "recipe_name": "Honey Chipotle Slow Cooker Meatballs",
+        "category": "Appetizers",
+        "description": "Honey Chipotle Slow Cooker Meatballs are the absolute perfect party prep appetizer! A naturally sweetened sauce is whipped together and thrown into a slow cooker to create a luscious sauce that coats every inch of the chicken meatballs!",
+        "image": "http://withsaltandwit.com/wp-content/uploads/2017/01/Slow-Cooker-Honey-Chipotle-Meatballs-4.jpg",
+        "prep_time": "20 Minutes",
+        "difficulty": "Easy",
+        "instructions_url": "http://withsaltandwit.com/honey-chipotle-slow-cooker-meatballs/"
+    }
+},
+{
+    "model": "recipe_app.recipe",
+    "pk": 4,
+    "fields": {
+        "recipe_name": "Greek Yogurt Spicy Corn Dip",
+        "category": "Appetizers",
+        "description": "Greek Yogurt Spicy Corn Dip is a simple and quick, make-ahead appetizer! Creamy greek yogurt mixed with crisp corn, cheddar cheese and a bit of spice is ideal for the big game or a BBQ!",
+        "image": "http://withsaltandwit.com/wp-content/uploads/2017/01/DSC0842.jpg",
+        "prep_time": "10 Minutes",
+        "difficulty": "Easy",
+        "instructions_url": "http://withsaltandwit.com/greek-yogurt-spicy-corn-dip/"
+    }
+},
+{
+    "model": "recipe_app.recipe",
+    "pk": 5,
+    "fields": {
+        "recipe_name": "Spicy Basil Hummus",
+        "category": "Appetizers",
+        "description": "Spicy Basil Hummus is so delicious and with only 7 ingredients, it couldn\u2019t be easier to make! Fresh basil, chickpeas and a touch of red pepper take this classic hummus up a few notches!",
+        "image": "http://withsaltandwit.com/wp-content/uploads/2016/07/Spicy-Basil-Hummus-5.jpg",
+        "prep_time": "5 Minutes",
+        "difficulty": "Easy",
+        "instructions_url": "http://withsaltandwit.com/spicy-basil-hummus/"
+    }
+},
+{
+    "model": "recipe_app.recipe",
+    "pk": 6,
+    "fields": {
+        "recipe_name": "Bacon & Berry Kale Salad with Honey Lemon Vinaigrette",
+        "category": "Appetizers",
+        "description": "This Bacon & Berry Kale Salad with Honey Lemon Vinaigrette is a summertime superfood salad! Fresh kale tossed in a honey lemon vinaigrette and topped with fresh berries, creamy avocado, and crispy bacon!",
+        "image": "http://withsaltandwit.com/wp-content/uploads/2016/06/Bacon-Berry-Kale-Salad-with-Honey-Lemon-Vinaigrette_-6.jpg",
+        "prep_time": "15 Minutes",
+        "difficulty": "Easy",
+        "instructions_url": "http://withsaltandwit.com/bacon-berry-kale-salad-honey-lemon-vinaigrette/"
+    }
+},
+{
+    "model": "recipe_app.recipe",
+    "pk": 7,
+    "fields": {
+        "recipe_name": "Lemon Berry Cheesecake Dip",
+        "category": "Appetizers",
+        "description": "Lemon Berry Cheesecake Dip is the best of both words \u2013 dessert and a dip! Luscious, creamy cheesecake dip with a hint of lemon is topped with juicy berries coated in a touch of maple syrup! An irresistible combination that will be the hit of any party!",
+        "image": "http://withsaltandwit.com/wp-content/uploads/2016/06/Lemon-Berry-Greek-Yogurt-Cheesecake-Dip-5.jpg",
+        "prep_time": "10 Minutes",
+        "difficulty": "Easy",
+        "instructions_url": "http://withsaltandwit.com/lemon-berry-cheesecake-dip/"
+    }
+},
+{
+    "model": "recipe_app.recipe",
+    "pk": 8,
+    "fields": {
+        "recipe_name": "Caprese Avocado Toast",
+        "category": "Appetizers",
+        "description": "Caprese Avocado Toast is my go to, healthy snack! Full of good for you ingredients, this snack is ready in 10 minutes and easy enough to feed a crowd!",
+        "image": "http://withsaltandwit.com/wp-content/uploads/2016/05/My-Favorite-Snack-Caprese-Avocado-Toast-5.jpg",
+        "prep_time": "10 Minutes",
+        "difficulty": "Easy",
+        "instructions_url": "http://withsaltandwit.com/caprese-avocado-toast/"
+    }
+},
+{
+    "model": "recipe_app.recipe",
+    "pk": 9,
+    "fields": {
+        "recipe_name": "5 Minute Bruschetta Hummus",
+        "category": "Appetizers",
+        "description": "This 5 Minute Bruschetta Hummus is the ideal summer appetizer! The classic Italian flavors shine through with the homemade cherry tomato and garlic bruschetta that pairs perfectly with creamy hummus!",
+        "image": "http://withsaltandwit.com/wp-content/uploads/2016/04/5-Minute-Bruschetta-Hummus.jpg",
+        "prep_time": "5 Minutes",
+        "difficulty": "Easy",
+        "instructions_url": "http://withsaltandwit.com/5-minute-bruschetta-hummus/"
+    }
+},
+{
+    "model": "recipe_app.recipe",
+    "pk": 10,
+    "fields": {
+        "recipe_name": "Grilled Huli Huli Chicken Kabobs",
+        "category": "Appetizers",
+        "description": "Grilled Huli Huli Chicken Kabobs \u2013 Juicy pineapple and tender chicken coated in a sweet and savory glaze then grilled to perfection! The perfect summertime, quick dinner!",
+        "image": "http://withsaltandwit.com/wp-content/uploads/2016/03/Huli-Huli-Chicken-Skewers_-7.jpg",
+        "prep_time": "1 Hour",
+        "difficulty": "Easy",
+        "instructions_url": "http://withsaltandwit.com/grilled-huli-huli-chicken-kabobs/"
+    }
+},
+{
+    "model": "recipe_app.recipe",
+    "pk": 11,
+    "fields": {
+        "recipe_name": "Cantina Style Salsa with Homemade Corn Tortilla Chips",
+        "category": "Appetizers",
+        "description": "With fresh ingredients, this simple and delicious cantina style salsa with homemade corn tortilla chips comes together quickly for a tasty snack!",
+        "image": "http://withsaltandwit.com/wp-content/uploads/2014/03/Cantina-Style-Salsa-with-Homemade-Corn-Tortilla-Chips-2.jpg",
+        "prep_time": "20 Minutes",
+        "difficulty": "Easy",
+        "instructions_url": "http://withsaltandwit.com/salsa-chips/"
+    }
+},
+{
+    "model": "recipe_app.recipe",
+    "pk": 12,
+    "fields": {
+        "recipe_name": "Sriracha Bacon Beer Cheese Dip",
+        "category": "Appetizers",
+        "description": "Sriracha Bacon Beer Cheese Dip is an irresistible, 4 ingredient appetizer that is creamy, cheesy, loaded with flavorful toppings and only takes only 15 minutes to make! It will be the hit at any party!",
+        "image": "http://withsaltandwit.com/wp-content/uploads/2016/01/Sriracha-Bacon-Beer-Cheese-Dip-3.jpg",
+        "prep_time": "15 Minutes",
+        "difficulty": "Easy",
+        "instructions_url": "http://withsaltandwit.com/sriracha-bacon-beer-cheese-dip/"
+    }
+},
+{
+    "model": "recipe_app.recipe",
+    "pk": 13,
+    "fields": {
+        "recipe_name": "Sweet Chili Glazed Meatballs",
+        "category": "Appetizers",
+        "description": "Sweet Chili Glazed Meatballs are juicy meatballs drenched in a homemade sweet chili sauce that is sweet and spicy! A crowd pleasing 30 minute appetizer or an easy dinner served with rice!",
+        "image": "http://withsaltandwit.com/wp-content/uploads/2015/12/Sweet-Chili-Glazed-Meatballs-2.jpg",
+        "prep_time": "30 Minutes",
+        "difficulty": "Easy",
+        "instructions_url": "http://withsaltandwit.com/sweet-chili-glazed-meatballs/"
+    }
+},
+{
+    "model": "recipe_app.recipe",
+    "pk": 14,
+    "fields": {
+        "recipe_name": "Cranberry Brown Sugar Brie Bites",
+        "category": "Appetizers",
+        "description": "Cranberry Brown Sugar Brie Bites are the perfect party appetizer. They are sweet, savory and are whipped together in under 20 minutes!",
+        "image": "http://withsaltandwit.com/wp-content/uploads/2015/12/Cranberry-Brown-Sugar-Brie-Bites-2.jpg",
+        "prep_time": "20 Minutes",
+        "difficulty": "Easy",
+        "instructions_url": "http://withsaltandwit.com/cranberry-brown-sugar-brie-bites/"
+    }
+},
+{
+    "model": "recipe_app.recipe",
+    "pk": 15,
+    "fields": {
+        "recipe_name": "Fall Harvest Salad with Apple Cider Vinaigrette",
+        "category": "Appetizers",
+        "description": "This Fall Harvest Salad is full of fall flavors; roasted butternut squash, tender wild rice, pepitas, sweet apples, and hearty kale. And finish the salad with a seasonal Apple Cider Vinaigrette! A dish that is perfect to make ahead!",
+        "image": "http://withsaltandwit.com/wp-content/uploads/2015/10/Fall-Harvest-Salad.jpg",
+        "prep_time": "30 Minutes",
+        "difficulty": "Easy",
+        "instructions_url": "http://withsaltandwit.com/fall-harvest-salad-with-apple-cider-vinaigrette/"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 1,
+    "fields": {
+        "recipe": 1,
+        "ingredients": "1/4 cup water"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 2,
+    "fields": {
+        "recipe": 1,
+        "ingredients": "1/4 cup coconut sugar"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 3,
+    "fields": {
+        "recipe": 1,
+        "ingredients": "1/8 teaspoon cinnamon"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 4,
+    "fields": {
+        "recipe": 1,
+        "ingredients": "1 cup double strength coffee"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 5,
+    "fields": {
+        "recipe": 1,
+        "ingredients": "1 cup milk"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 6,
+    "fields": {
+        "recipe": 1,
+        "ingredients": "1 tablespoon coconut sugar"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 7,
+    "fields": {
+        "recipe": 1,
+        "ingredients": "1/16 teaspoon cinnamon"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 8,
+    "fields": {
+        "recipe": 2,
+        "ingredients": "1 cup shredded chicken"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 9,
+    "fields": {
+        "recipe": 2,
+        "ingredients": "1/2 cup whole kernel sweet corn"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 10,
+    "fields": {
+        "recipe": 2,
+        "ingredients": "1/2 cup black beans"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 11,
+    "fields": {
+        "recipe": 2,
+        "ingredients": "1/2 cup diced tomatoes"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 12,
+    "fields": {
+        "recipe": 2,
+        "ingredients": "1 roasted poblano pepper, diced (or 1 4 oz can diced green chiles)"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 13,
+    "fields": {
+        "recipe": 2,
+        "ingredients": "1/4 cup chopped cilantro"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 14,
+    "fields": {
+        "recipe": 2,
+        "ingredients": "1 teaspoon ground cumin"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 15,
+    "fields": {
+        "recipe": 2,
+        "ingredients": "1/2 teaspoon salt"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 16,
+    "fields": {
+        "recipe": 2,
+        "ingredients": "1/2 teaspoon pepper"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 17,
+    "fields": {
+        "recipe": 2,
+        "ingredients": "1 cup shredded pepper jack cheese"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 18,
+    "fields": {
+        "recipe": 2,
+        "ingredients": "10 Small whole wheat flour tortillas (gluten free or white if you like those better)"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 19,
+    "fields": {
+        "recipe": 2,
+        "ingredients": "1/2 cup Sabra\u2019s Greek Style Ranch Dip"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 20,
+    "fields": {
+        "recipe": 2,
+        "ingredients": "1/2 cup Sabra Guacamole"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 21,
+    "fields": {
+        "recipe": 3,
+        "ingredients": "1 package (18 ounces) Gold'n Plump Chicken Meatballs, Homestyle Flavor"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 22,
+    "fields": {
+        "recipe": 3,
+        "ingredients": "1 cup chicken broth"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 23,
+    "fields": {
+        "recipe": 3,
+        "ingredients": "3 tablespoons honey"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 24,
+    "fields": {
+        "recipe": 3,
+        "ingredients": "1 1/2 teaspoons chili powder"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 25,
+    "fields": {
+        "recipe": 3,
+        "ingredients": "2 teaspoons chipotle in adobo sauce"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 26,
+    "fields": {
+        "recipe": 3,
+        "ingredients": "1 tablespoon ground cumin"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 27,
+    "fields": {
+        "recipe": 3,
+        "ingredients": "1 1/2 teaspoons paprika"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 28,
+    "fields": {
+        "recipe": 3,
+        "ingredients": "1 teaspoon garlic powder"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 29,
+    "fields": {
+        "recipe": 3,
+        "ingredients": "1 teaspoon onion powder"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 30,
+    "fields": {
+        "recipe": 3,
+        "ingredients": "1/2 teaspoon ground coriander"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 31,
+    "fields": {
+        "recipe": 3,
+        "ingredients": "1/2 teaspoon salt"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 32,
+    "fields": {
+        "recipe": 3,
+        "ingredients": "1/2 teaspoon pepper"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 33,
+    "fields": {
+        "recipe": 4,
+        "ingredients": "1 cup plain non fat greek yogurt"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 34,
+    "fields": {
+        "recipe": 4,
+        "ingredients": "1 cup shredded cheddar cheese"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 35,
+    "fields": {
+        "recipe": 4,
+        "ingredients": "1 cup fresh or frozen corn, thawed"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 36,
+    "fields": {
+        "recipe": 4,
+        "ingredients": "1 (4oz) can diced green chiles"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 37,
+    "fields": {
+        "recipe": 4,
+        "ingredients": "2 green onions, sliced thin"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 38,
+    "fields": {
+        "recipe": 4,
+        "ingredients": "1/2 teaspoon garlic powder"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 39,
+    "fields": {
+        "recipe": 4,
+        "ingredients": "1 teaspoon chili"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 40,
+    "fields": {
+        "recipe": 4,
+        "ingredients": "1/2 teaspoon cumin"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 41,
+    "fields": {
+        "recipe": 4,
+        "ingredients": "Pinch red pepper flakes"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 42,
+    "fields": {
+        "recipe": 4,
+        "ingredients": "1/4 teaspoon salt"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 43,
+    "fields": {
+        "recipe": 4,
+        "ingredients": "For serving, tortilla chips or vegetable chips"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 44,
+    "fields": {
+        "recipe": 5,
+        "ingredients": "2 cans garbanzo beans, drained, rinsed and deskinned"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 45,
+    "fields": {
+        "recipe": 5,
+        "ingredients": "1 teaspoon garlic powder"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 46,
+    "fields": {
+        "recipe": 5,
+        "ingredients": "1/4 teaspoon red pepper flakes"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 47,
+    "fields": {
+        "recipe": 5,
+        "ingredients": "1 teaspoon salt"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 48,
+    "fields": {
+        "recipe": 5,
+        "ingredients": "1/2 teaspoon ground black pepper"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 49,
+    "fields": {
+        "recipe": 5,
+        "ingredients": "1/2 cup packed basil leaves"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 50,
+    "fields": {
+        "recipe": 5,
+        "ingredients": "6-8 tablespoons olive oil"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 51,
+    "fields": {
+        "recipe": 6,
+        "ingredients": "2 tablespoons extra virgin olive oil"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 52,
+    "fields": {
+        "recipe": 6,
+        "ingredients": "1 tablespoon white wine vinegar"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 53,
+    "fields": {
+        "recipe": 6,
+        "ingredients": "1 tablespoon lemon juice"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 54,
+    "fields": {
+        "recipe": 6,
+        "ingredients": "1 tablespoon honey"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 55,
+    "fields": {
+        "recipe": 6,
+        "ingredients": "1/4 teaspoon salt"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 56,
+    "fields": {
+        "recipe": 6,
+        "ingredients": "1/4 teaspoon pepper"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 57,
+    "fields": {
+        "recipe": 6,
+        "ingredients": "6 cups chopped kale"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 58,
+    "fields": {
+        "recipe": 6,
+        "ingredients": "2 cups sliced strawberries"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 59,
+    "fields": {
+        "recipe": 6,
+        "ingredients": "2 cups raspberries"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 60,
+    "fields": {
+        "recipe": 6,
+        "ingredients": "1/2 pound cooked turkey bacon (or regular bacon)"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 61,
+    "fields": {
+        "recipe": 6,
+        "ingredients": "2 small avocados, halved, pit removed, then sliced"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 62,
+    "fields": {
+        "recipe": 7,
+        "ingredients": "2 cups berries (strawberries, raspberries, blueberries, etc)"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 63,
+    "fields": {
+        "recipe": 7,
+        "ingredients": "2 tablespoons maple syrup (or honey)"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 64,
+    "fields": {
+        "recipe": 7,
+        "ingredients": "1 (8 ounce) package low fat cream cheese"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 65,
+    "fields": {
+        "recipe": 7,
+        "ingredients": "1/4 cup baking stevia (or 1/2 cup regular sugar)"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 66,
+    "fields": {
+        "recipe": 7,
+        "ingredients": "1 1/2 teaspoons vanilla extract"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 67,
+    "fields": {
+        "recipe": 7,
+        "ingredients": "Juice of 1 lemon"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 68,
+    "fields": {
+        "recipe": 7,
+        "ingredients": "1 cup fat free vanilla greek yogurt"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 69,
+    "fields": {
+        "recipe": 7,
+        "ingredients": "Graham Crackers"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 70,
+    "fields": {
+        "recipe": 7,
+        "ingredients": "Pretzel Rods"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 71,
+    "fields": {
+        "recipe": 8,
+        "ingredients": "4 slices Pepperidge Farm Seeded Bread"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 72,
+    "fields": {
+        "recipe": 8,
+        "ingredients": "1 avocado, thinly sliced"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 73,
+    "fields": {
+        "recipe": 8,
+        "ingredients": "1/2 cup cherry tomatoes, sliced in half"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 74,
+    "fields": {
+        "recipe": 8,
+        "ingredients": "1/2 cup mini mozzarella pearls (or sliced mozzarella)"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 75,
+    "fields": {
+        "recipe": 8,
+        "ingredients": "1/4 cup basil leaves"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 76,
+    "fields": {
+        "recipe": 8,
+        "ingredients": "Balsamic Glaze, for drizzling"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 77,
+    "fields": {
+        "recipe": 9,
+        "ingredients": "1 heaping cup diced cherry tomatoes (halved if small, quartered if large)"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 78,
+    "fields": {
+        "recipe": 9,
+        "ingredients": "1 minced garlic clove"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 79,
+    "fields": {
+        "recipe": 9,
+        "ingredients": "1/4 teaspoon salt"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 80,
+    "fields": {
+        "recipe": 9,
+        "ingredients": "1/8 teaspoon pepper"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 81,
+    "fields": {
+        "recipe": 9,
+        "ingredients": "1 teaspoon extra virgin olive oil"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 82,
+    "fields": {
+        "recipe": 9,
+        "ingredients": "1 teaspoon balsamic vinegar"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 83,
+    "fields": {
+        "recipe": 9,
+        "ingredients": "1 container Sabra Hummus (I love the Pine Nut and Basil for this!)"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 84,
+    "fields": {
+        "recipe": 9,
+        "ingredients": "Sliced and Toasted Baguette, Pita Bread and/or Crackers"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 85,
+    "fields": {
+        "recipe": 9,
+        "ingredients": "Sliced Cucumbers"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 86,
+    "fields": {
+        "recipe": 9,
+        "ingredients": "Baby Carrots"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 87,
+    "fields": {
+        "recipe": 10,
+        "ingredients": "1/2 cup reduced sugar ketchup"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 88,
+    "fields": {
+        "recipe": 10,
+        "ingredients": "1/4 cup reduced sodium soy sauce (gluten-free if needed)"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 89,
+    "fields": {
+        "recipe": 10,
+        "ingredients": "/2 cup coconut sugar (or brown sugar)"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 90,
+    "fields": {
+        "recipe": 10,
+        "ingredients": "2 tablespoon rice vinegar"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 91,
+    "fields": {
+        "recipe": 10,
+        "ingredients": "1 teaspoon ground ginger"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 92,
+    "fields": {
+        "recipe": 10,
+        "ingredients": "1 1/2 teaspoons garlic powder"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 93,
+    "fields": {
+        "recipe": 10,
+        "ingredients": "1 1/4 pounds skinless chicken breast, cut into 1-inch cubes"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 94,
+    "fields": {
+        "recipe": 10,
+        "ingredients": "1 fresh pineapple, skin removed, cored and cut into 1-inch cubes"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 95,
+    "fields": {
+        "recipe": 10,
+        "ingredients": "Cilantro, for garnish"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 96,
+    "fields": {
+        "recipe": 11,
+        "ingredients": "1 can (28 oz) can diced tomatoes"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 97,
+    "fields": {
+        "recipe": 11,
+        "ingredients": "2 small jalapenos, (seeds and membrane removed for a milder recipe)"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 98,
+    "fields": {
+        "recipe": 11,
+        "ingredients": "Juice of two medium limes"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 99,
+    "fields": {
+        "recipe": 11,
+        "ingredients": "1/4 cup roughy chopped cilantro"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 100,
+    "fields": {
+        "recipe": 11,
+        "ingredients": "2 garlic cloves, minced"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 101,
+    "fields": {
+        "recipe": 11,
+        "ingredients": "1/2 sweet onion, roughly chopped"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 102,
+    "fields": {
+        "recipe": 11,
+        "ingredients": "1 Tbsp cumin"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 103,
+    "fields": {
+        "recipe": 11,
+        "ingredients": "1 tsp salt , or to taste"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 104,
+    "fields": {
+        "recipe": 11,
+        "ingredients": "1 tsp pepper, or to taste"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 105,
+    "fields": {
+        "recipe": 11,
+        "ingredients": "Pinch sugar"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 106,
+    "fields": {
+        "recipe": 11,
+        "ingredients": "1 package (24 count) corn tortillas"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 107,
+    "fields": {
+        "recipe": 12,
+        "ingredients": "8 ounces low fat cream cheese"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 108,
+    "fields": {
+        "recipe": 12,
+        "ingredients": "6 ounces Bud Light Lime Beer"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 109,
+    "fields": {
+        "recipe": 12,
+        "ingredients": "6 ounces freshly shredded cheddar cheese"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 110,
+    "fields": {
+        "recipe": 12,
+        "ingredients": "1 1/2 teaspoons Sriracha"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 111,
+    "fields": {
+        "recipe": 12,
+        "ingredients": "Cooked Bacon, crumbled"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 112,
+    "fields": {
+        "recipe": 12,
+        "ingredients": "Sliced Green Onions"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 113,
+    "fields": {
+        "recipe": 12,
+        "ingredients": "Cilantro"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 114,
+    "fields": {
+        "recipe": 12,
+        "ingredients": "Diced Cherry Tomatoes"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 115,
+    "fields": {
+        "recipe": 12,
+        "ingredients": "Serve with tortilla chips, pretzels"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 116,
+    "fields": {
+        "recipe": 13,
+        "ingredients": "2 pounds Johnsonville Homestyle Meatballs"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 117,
+    "fields": {
+        "recipe": 13,
+        "ingredients": "1/4 cup chicken broth"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 118,
+    "fields": {
+        "recipe": 13,
+        "ingredients": "1/2 cup coconut sugar (or brown sugar)"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 119,
+    "fields": {
+        "recipe": 13,
+        "ingredients": "1/2 cup water"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 120,
+    "fields": {
+        "recipe": 13,
+        "ingredients": "3 tbsp red wine vinegar"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 121,
+    "fields": {
+        "recipe": 13,
+        "ingredients": "1 1/2 teaspoons garlic powder"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 122,
+    "fields": {
+        "recipe": 13,
+        "ingredients": "1 1/2 teaspoons onion powder"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 123,
+    "fields": {
+        "recipe": 13,
+        "ingredients": "1/2 teaspoon ground ginger"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 124,
+    "fields": {
+        "recipe": 13,
+        "ingredients": "1/2 teaspoons red pepper flakes"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 125,
+    "fields": {
+        "recipe": 13,
+        "ingredients": "1 teaspoon salt"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 126,
+    "fields": {
+        "recipe": 14,
+        "ingredients": "1 package mini phyllo cups"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 127,
+    "fields": {
+        "recipe": 14,
+        "ingredients": "1/2 cup diced brie"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 128,
+    "fields": {
+        "recipe": 14,
+        "ingredients": "1/4 cup Truvia Brown Sugar Blend"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 129,
+    "fields": {
+        "recipe": 14,
+        "ingredients": "1/2 cup dried cranberries"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 130,
+    "fields": {
+        "recipe": 15,
+        "ingredients": "1/2 cup uncooked wild rice"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 131,
+    "fields": {
+        "recipe": 15,
+        "ingredients": "2 pounds butternut squash, peeled, seeds removed & cut into 1/2 inch cubes"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 132,
+    "fields": {
+        "recipe": 15,
+        "ingredients": "1 tablespoon olive oil"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 133,
+    "fields": {
+        "recipe": 15,
+        "ingredients": "5 cups kale, center rib removed, and sliced thin"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 134,
+    "fields": {
+        "recipe": 15,
+        "ingredients": "1 medium apple, cut into 1/2 inch cubes"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 135,
+    "fields": {
+        "recipe": 15,
+        "ingredients": "1/2 cup dried cherries"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 136,
+    "fields": {
+        "recipe": 15,
+        "ingredients": "1/2 cup toasted pepitas (or pecans)"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 137,
+    "fields": {
+        "recipe": 15,
+        "ingredients": "Salt"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 138,
+    "fields": {
+        "recipe": 15,
+        "ingredients": "Black Pepper"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 139,
+    "fields": {
+        "recipe": 15,
+        "ingredients": "2 tablespoons apple cider (or apple juice)"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 140,
+    "fields": {
+        "recipe": 15,
+        "ingredients": "2 tablespoons apple cider vinegar"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 141,
+    "fields": {
+        "recipe": 15,
+        "ingredients": "1/4 cup + 2 tablespoons olive oil"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 142,
+    "fields": {
+        "recipe": 15,
+        "ingredients": "1/2 teaspoon Dijon mustard"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 143,
+    "fields": {
+        "recipe": 15,
+        "ingredients": "1/2 teaspoon salt"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 144,
+    "fields": {
+        "recipe": 15,
+        "ingredients": "1/2 teaspoon pepper"
+    }
+},
+{
+    "model": "recipe_app.ingredients",
+    "pk": 145,
+    "fields": {
+        "recipe": 15,
+        "ingredients": "1/2 teaspoon garlic powder"
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$pXEkHShRVsJf$/eY18oCkcXgY3moPlYRn2OQTyUpfPep5WOgZv5vZ3oE=",
+        "last_login": "2017-10-20T19:01:41.027Z",
+        "is_superuser": true,
+        "username": "d.bezinski@gmail.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "d.bezinski@gmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2017-09-23T13:51:22.083Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$FxefXJ87RLOd$cN9fHCf8iwSRqdMKE4MzenyueC5M0yjn+Kek9MHA1TA=",
+        "last_login": "2017-09-23T18:16:22.829Z",
+        "is_superuser": false,
+        "username": "mitko@gmail.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "mitko@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-09-23T17:46:00.633Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 5,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$57OewNTDQl51$3NTIfNrHTvZRsYO/VwkDxBDEGZCz6aoA+uMKon2gjbA=",
+        "last_login": "2017-10-14T16:18:55.754Z",
+        "is_superuser": false,
+        "username": "123@fg.gg",
+        "first_name": "",
+        "last_name": "",
+        "email": "123@fg.gg",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-09-23T17:49:38.732Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 6,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$lAdGeKcwxzKx$bf+lW1PSRns63pYG8KR4veLCLflcbr1LgYZN4MGJ2/4=",
+        "last_login": "2017-09-24T10:49:31.941Z",
+        "is_superuser": false,
+        "username": "mimi@gmail.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "mimi@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-09-24T10:38:22.547Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 7,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$R1UQdHoAaAPQ$DnJPAZ5zlQO8WkoxaIv2b5MuS8wWUOMkPxJfoUkzFn4=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-09-30T13:43:38.640Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 8,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$zIzUAxjRmeZA$Srw6Y+v6UuK2AosItbjSNTUS0dXDjzxxqNMNZujVwzI=",
+        "last_login": "2017-09-30T13:59:42.857Z",
+        "is_superuser": false,
+        "username": "marina@gmail.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "marina@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-09-30T13:59:39.843Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 9,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$CzR0Qq6i0b54$pHTMbIOKAATvVISqpjxRXwoBYPu4diBUQiwagmepM7Y=",
+        "last_login": "2017-10-01T18:16:43.474Z",
+        "is_superuser": false,
+        "username": "zxcv@gmail.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "zxcv@gmail.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-10-01T18:16:30.833Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 10,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$TDd0HbCnonKY$1Dhk6ek2+ghCHCsm12dLJB0y8whRLL7Qxi85oh2UMcs=",
+        "last_login": "2017-10-01T18:21:48.602Z",
+        "is_superuser": false,
+        "username": "asdf@asd.hg",
+        "first_name": "",
+        "last_name": "",
+        "email": "asdf@asd.hg",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-10-01T18:21:38.050Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 11,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$FQi6FI2c0inp$DBzaWSvxX3TnPFGt/10viOVSSNe+Z9DMA7uJM7RWDdY=",
+        "last_login": null,
+        "is_superuser": false,
+        "username": "miy@dfg.bg",
+        "first_name": "",
+        "last_name": "",
+        "email": "miy@dfg.bg",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-10-01T18:26:18.649Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 12,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$KBVpyapY0REO$5mkTyHSGRgNT+QgzGt0oiAdAkNpY+GModwv8MYUlxws=",
+        "last_login": "2017-10-07T19:20:58.111Z",
+        "is_superuser": false,
+        "username": "new@abv.bg",
+        "first_name": "",
+        "last_name": "",
+        "email": "new@abv.bg",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-10-07T19:20:55.611Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 13,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$xk9ZxmXYp6KD$/joe07FO+/NHe30qJ+Nq8/41AkCbouj0+i8tHVDj0FA=",
+        "last_login": "2017-10-14T11:58:44.019Z",
+        "is_superuser": false,
+        "username": "zaq@qaz.zaq",
+        "first_name": "",
+        "last_name": "",
+        "email": "zaq@qaz.zaq",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-10-14T11:58:35.604Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 14,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$eEh0hGwPj62h$OMO5e4teRAAiPgFl3kz0vn/EMBUOeJcMlRjmhb1L6Vo=",
+        "last_login": "2017-10-14T12:03:30.588Z",
+        "is_superuser": false,
+        "username": "zxc@zxc.sd",
+        "first_name": "",
+        "last_name": "",
+        "email": "zxc@zxc.sd",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-10-14T12:03:25.891Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 15,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$QRHjBtP5FFei$VM7aw4f1gGE5EDXpNnLa+Sgv1SGcD5zCMieJeaY6WeY=",
+        "last_login": "2017-10-20T19:02:21.696Z",
+        "is_superuser": false,
+        "username": "qwe@qwe.qwe",
+        "first_name": "",
+        "last_name": "",
+        "email": "qwe@qwe.qwe",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-10-20T19:02:10.478Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "reusable_blog.post",
+    "pk": 1,
+    "fields": {
+        "title": "New",
+        "content": "This is a new post",
+        "created_date": "2017-09-30T13:29:02.662Z",
+        "published_date": "2017-09-30T13:28:56Z",
+        "views": 14,
+        "tag": null,
+        "image": ""
+    }
+},
+{
+    "model": "reusable_blog.post",
+    "pk": 2,
+    "fields": {
+        "title": "The more things change, the more the pastrami stays the same: a Talks at Google roundup",
+        "content": "As the seasons change, we started thinking about other types of change. This month\u2019s Talks at Google roundup delves into everything from changing habits to how two famous Jewish delis balance classic dishes amidst a changing food scene.\r\n\r\nAuthor, podcaster and expert habit-former Gretchen Rubin talks about \u201cBetter Than Before,\u201d her book that offers a new perspective on habits. She explains how to form habits, why we break them, and the four types of habit tendencies.",
+        "created_date": "2017-10-01T15:05:36.552Z",
+        "published_date": "2017-10-01T15:06:18.834Z",
+        "views": 4,
+        "tag": null,
+        "image": ""
+    }
+},
+{
+    "model": "reusable_blog.post",
+    "pk": 3,
+    "fields": {
+        "title": "The High Five: insights on the top search trends of the week",
+        "content": "his week people searched for free coffee, the death of a media mogul, help with IKEA tasks and new wheels from Ford. And as Puerto Rico reels from the devastation of Hurricane Maria, people want to know how they can help. Here are the top trends of the week, with data from Google News Lab.\r\nHurricane Maria\r\n\r\nPuerto Rico continues to grapple with the aftermath of Hurricane Maria, which left many without power and desperate for food, electricity and communication services. People in the U.S. continue to search for \u201churricane donation\u201d (interest went up 185% this week), as well as \u201cHow powerful was Hurricane Maria?\u201d \u201cHow to donate to Puerto Rico\u201d and \u201cWhat is the Jones Act?\u201d (A law that was waived to get relief to Puerto Rico quicker). The top regions searching for Puerto Rico were Florida, Connecticut and New Jersey.\r\nCaffeine fiends\r\n\r\nWake up and smell the coffee\u2014it\u2019s National Coffee Day! And everyone is after the free java, with searches like, \u201cIs Starbucks doing anything for National Coffee Day?\u201d \u201cWho gives free coffee on National Coffee Day?\u201d and \u201cWhat is National Coffee Day at Dunkin Donuts?\u201d Cold brew coffee, butter coffee, and Irish coffee (for those starting early\u2026) are the most searched types of coffee this week.",
+        "created_date": "2017-10-01T15:09:16.427Z",
+        "published_date": "2017-10-15T15:35:11.357Z",
+        "views": 15,
+        "tag": null,
+        "image": ""
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "image": "media/eyCGCgAAQBAJ.jpg",
+        "name": "Lean in 15 - The Shape Plan: 15 Minute Meals With Workouts to Build a Strong, Lean Body",
+        "description": "The second book by the record-breaking bestselling author Joe Wicks.\r\n\r\nEAT MORE. BUILD MUSCLE. BURN FAT.\r\n\r\nLean in 15: The Shape Plan introduces a new way of eating and training to build lean muscle and burn more fat. Joe Wicks, aka The Body Coach, has helped hundreds of thousands of people transform their bodies and feel amazing. In the Shape Plan, he shares 100 delicious recipes and four new workouts to take your fitness to the next level.\r\n\r\nAre you ready to start your transformation and get Lean in 15?\r\n\r\nOver 600,000 copies sold",
+        "price": "9.44"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "image": "media/510-RXKqsdL._SX374_BO1204203200_.jpg",
+        "name": "Gordon Ramsay's Ultimate Home Cooking",
+        "description": "'My rules are simple. Home cooking has to be easy. It got to be fast. It's got to be delicious. If you think you can't cook amazing food at home, think again. I'm going to prove that however busy you are it's still possible to cook stunning food. These are the only recipes you'll ever need.'\r\nGORDON RAMSAY",
+        "price": "9.50"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+        "image": "media/510OFxaWOQL._SX411_BO1204203200_.jpg",
+        "name": "The Diabetes Cooking Book (Dk)",
+        "description": "Learn how to manage your diet with the Diabetes Cookbook\r\n\r\nManaging your diet is the key to good diabetes control. With recipes for lunch, dinner and healthy snacks, The Diabetes Cookbook is guaranteed to tempt your taste buds and contribute to the health and well-being of everyone with diabetes.\r\n\r\nFeaturing over 250 delicious recipes, from tempting curries to delicious puddings, each one suitable to help manage type 2 diabetes. Each recipe has a simple points system that allows users to track their glucose, saturated fat and cholesterol intake to balance their diet - the key to staying healthy.",
+        "price": "8.75"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+        "action_time": "2017-09-30T13:29:02.667Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "reusable_blog",
+            "post"
+        ],
+        "object_id": "1",
+        "object_repr": "New",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+        "action_time": "2017-10-08T12:17:10.608Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "products",
+            "product"
+        ],
+        "object_id": "1",
+        "object_repr": "Product object",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+        "action_time": "2017-10-08T12:20:23.277Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "products",
+            "product"
+        ],
+        "object_id": "1",
+        "object_repr": "Product object",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+        "action_time": "2017-10-08T12:41:18.872Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "products",
+            "product"
+        ],
+        "object_id": "1",
+        "object_repr": "Product object",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+        "action_time": "2017-10-08T12:50:57.863Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "products",
+            "product"
+        ],
+        "object_id": "1",
+        "object_repr": "Product object",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+        "action_time": "2017-10-08T12:53:04.484Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "products",
+            "product"
+        ],
+        "object_id": "2",
+        "object_repr": "Product object",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+        "action_time": "2017-10-08T13:00:36.016Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "products",
+            "product"
+        ],
+        "object_id": "2",
+        "object_repr": "Product object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+        "action_time": "2017-10-08T13:00:36.032Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "products",
+            "product"
+        ],
+        "object_id": "1",
+        "object_repr": "Product object",
+        "action_flag": 3,
+        "change_message": ""
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+        "action_time": "2017-10-08T13:02:54.650Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "products",
+            "product"
+        ],
+        "object_id": "3",
+        "object_repr": "Product object",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+        "action_time": "2017-10-08T13:17:48.929Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "products",
+            "product"
+        ],
+        "object_id": "3",
+        "object_repr": "Product object",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+        "action_time": "2017-10-08T13:25:30.348Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "products",
+            "product"
+        ],
+        "object_id": "3",
+        "object_repr": "Product object",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+        "action_time": "2017-10-08T13:26:19.618Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "products",
+            "product"
+        ],
+        "object_id": "3",
+        "object_repr": "Product object",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+        "action_time": "2017-10-08T14:06:21.326Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "products",
+            "product"
+        ],
+        "object_id": "3",
+        "object_repr": "Product object",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+        "action_time": "2017-10-08T14:07:27.576Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "products",
+            "product"
+        ],
+        "object_id": "3",
+        "object_repr": "Product object",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+        "action_time": "2017-10-08T14:58:15.924Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "products",
+            "product"
+        ],
+        "object_id": "3",
+        "object_repr": "Product object",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"image\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+        "action_time": "2017-10-08T15:17:56.755Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "products",
+            "product"
+        ],
+        "object_id": "3",
+        "object_repr": "Product object",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+        "action_time": "2017-10-08T15:20:45.940Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "products",
+            "product"
+        ],
+        "object_id": "4",
+        "object_repr": "Product object",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+        "action_time": "2017-10-08T15:22:06.479Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "products",
+            "product"
+        ],
+        "object_id": "5",
+        "object_repr": "Product object",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+        "action_time": "2017-10-09T20:28:16.180Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "recipe_app",
+            "recipe"
+        ],
+        "object_id": "1",
+        "object_repr": "Homemade Cinnamon Dolce Latte",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"object\": \"1/4 cup water\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/4 cup coconut sugar\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/8 teaspoon cinnamon\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 cup double strength coffee\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 cup milk\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 tablespoon coconut sugar\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/16 teaspoon cinnamon\", \"name\": \"ingredients\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+        "action_time": "2017-10-17T19:39:21.050Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "recipe_app",
+            "recipe"
+        ],
+        "object_id": "2",
+        "object_repr": "Cheesy Firecracker Baked Chicken Taquitos",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"object\": \"1 cup shredded chicken\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 cup whole kernel sweet corn\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 cup black beans\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 cup diced tomatoes\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 roasted poblano pepper, diced (or 1 4 oz can diced green chiles)\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/4 cup chopped cilantro\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 teaspoon ground cumin\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 teaspoon salt\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 teaspoon pepper\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 cup shredded pepper jack cheese\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"10 Small whole wheat flour tortillas (gluten free or white if you like those better)\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 cup Sabra\\u2019s Greek Style Ranch Dip\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 cup Sabra Guacamole\", \"name\": \"ingredients\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2017-10-17T19:42:06.441Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "recipe_app",
+            "recipe"
+        ],
+        "object_id": "3",
+        "object_repr": "Honey Chipotle Slow Cooker Meatballs",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"object\": \"1 package (18 ounces) Gold'n Plump Chicken Meatballs, Homestyle Flavor\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 cup chicken broth\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"3 tablespoons honey\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 1/2 teaspoons chili powder\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"2 teaspoons chipotle in adobo sauce\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 tablespoon ground cumin\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 1/2 teaspoons paprika\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 teaspoon garlic powder\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 teaspoon onion powder\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 teaspoon ground coriander\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 teaspoon salt\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 teaspoon pepper\", \"name\": \"ingredients\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2017-10-17T19:44:43.652Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "recipe_app",
+            "recipe"
+        ],
+        "object_id": "4",
+        "object_repr": "Greek Yogurt Spicy Corn Dip",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"object\": \"1 cup plain non fat greek yogurt\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 cup shredded cheddar cheese\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 cup fresh or frozen corn, thawed\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 (4oz) can diced green chiles\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"2 green onions, sliced thin\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 teaspoon garlic powder\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 teaspoon chili\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 teaspoon cumin\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"Pinch red pepper flakes\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/4 teaspoon salt\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"For serving, tortilla chips or vegetable chips\", \"name\": \"ingredients\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2017-10-17T19:46:49.003Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "recipe_app",
+            "recipe"
+        ],
+        "object_id": "5",
+        "object_repr": "Spicy Basil Hummus",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"object\": \"2 cans garbanzo beans, drained, rinsed and deskinned\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 teaspoon garlic powder\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/4 teaspoon red pepper flakes\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 teaspoon salt\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 teaspoon ground black pepper\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 cup packed basil leaves\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"6-8 tablespoons olive oil\", \"name\": \"ingredients\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2017-10-17T19:49:36.079Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "recipe_app",
+            "recipe"
+        ],
+        "object_id": "6",
+        "object_repr": "Bacon & Berry Kale Salad with Honey Lemon Vinaigrette",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"object\": \"2 tablespoons extra virgin olive oil\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 tablespoon white wine vinegar\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 tablespoon lemon juice\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 tablespoon honey\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/4 teaspoon salt\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/4 teaspoon pepper\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"6 cups chopped kale\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"2 cups sliced strawberries\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"2 cups raspberries\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 pound cooked turkey bacon (or regular bacon)\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"2 small avocados, halved, pit removed, then sliced\", \"name\": \"ingredients\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+        "action_time": "2017-10-17T19:49:44.278Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "recipe_app",
+            "recipe"
+        ],
+        "object_id": "6",
+        "object_repr": "Bacon & Berry Kale Salad with Honey Lemon Vinaigrette",
+        "action_flag": 2,
+        "change_message": "[]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+        "action_time": "2017-10-17T19:53:52.271Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "recipe_app",
+            "recipe"
+        ],
+        "object_id": "7",
+        "object_repr": "Lemon Berry Cheesecake Dip",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"object\": \"2 cups berries (strawberries, raspberries, blueberries, etc)\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"2 tablespoons maple syrup (or honey)\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 (8 ounce) package low fat cream cheese\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/4 cup baking stevia (or 1/2 cup regular sugar)\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 1/2 teaspoons vanilla extract\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"Juice of 1 lemon\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 cup fat free vanilla greek yogurt\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"Graham Crackers\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"Pretzel Rods\", \"name\": \"ingredients\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+        "action_time": "2017-10-17T19:57:19.752Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "recipe_app",
+            "recipe"
+        ],
+        "object_id": "8",
+        "object_repr": "Caprese Avocado Toast",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"object\": \"4 slices Pepperidge Farm Seeded Bread\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 avocado, thinly sliced\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 cup cherry tomatoes, sliced in half\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 cup mini mozzarella pearls (or sliced mozzarella)\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/4 cup basil leaves\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"Balsamic Glaze, for drizzling\", \"name\": \"ingredients\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+        "action_time": "2017-10-17T19:59:35.062Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "recipe_app",
+            "recipe"
+        ],
+        "object_id": "9",
+        "object_repr": "5 Minute Bruschetta Hummus",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"object\": \"1 heaping cup diced cherry tomatoes (halved if small, quartered if large)\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 minced garlic clove\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/4 teaspoon salt\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/8 teaspoon pepper\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 teaspoon extra virgin olive oil\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 teaspoon balsamic vinegar\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 container Sabra Hummus (I love the Pine Nut and Basil for this!)\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"Sliced and Toasted Baguette, Pita Bread and/or Crackers\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"Sliced Cucumbers\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"Baby Carrots\", \"name\": \"ingredients\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+        "action_time": "2017-10-17T20:02:26.533Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "recipe_app",
+            "recipe"
+        ],
+        "object_id": "10",
+        "object_repr": "Grilled Huli Huli Chicken Kabobs",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"object\": \"1/2 cup reduced sugar ketchup\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/4 cup reduced sodium soy sauce (gluten-free if needed)\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"/2 cup coconut sugar (or brown sugar)\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"2 tablespoon rice vinegar\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 teaspoon ground ginger\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 1/2 teaspoons garlic powder\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 1/4 pounds skinless chicken breast, cut into 1-inch cubes\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 fresh pineapple, skin removed, cored and cut into 1-inch cubes\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"Cilantro, for garnish\", \"name\": \"ingredients\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+        "action_time": "2017-10-17T20:04:55.602Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "recipe_app",
+            "recipe"
+        ],
+        "object_id": "11",
+        "object_repr": "Cantina Style Salsa with Homemade Corn Tortilla Chips",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"object\": \"1 can (28 oz) can diced tomatoes\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"2 small jalapenos, (seeds and membrane removed for a milder recipe)\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"Juice of two medium limes\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/4 cup roughy chopped cilantro\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"2 garlic cloves, minced\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 sweet onion, roughly chopped\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 Tbsp cumin\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 tsp salt , or to taste\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 tsp pepper, or to taste\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"Pinch sugar\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 package (24 count) corn tortillas\", \"name\": \"ingredients\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+        "action_time": "2017-10-17T20:06:53.239Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "recipe_app",
+            "recipe"
+        ],
+        "object_id": "12",
+        "object_repr": "Sriracha Bacon Beer Cheese Dip",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"object\": \"8 ounces low fat cream cheese\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"6 ounces Bud Light Lime Beer\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"6 ounces freshly shredded cheddar cheese\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 1/2 teaspoons Sriracha\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"Cooked Bacon, crumbled\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"Sliced Green Onions\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"Cilantro\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"Diced Cherry Tomatoes\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"Serve with tortilla chips, pretzels\", \"name\": \"ingredients\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+        "action_time": "2017-10-17T20:08:44.080Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "recipe_app",
+            "recipe"
+        ],
+        "object_id": "13",
+        "object_repr": "Sweet Chili Glazed Meatballs",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"object\": \"2 pounds Johnsonville Homestyle Meatballs\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/4 cup chicken broth\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 cup coconut sugar (or brown sugar)\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 cup water\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"3 tbsp red wine vinegar\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 1/2 teaspoons garlic powder\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 1/2 teaspoons onion powder\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 teaspoon ground ginger\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 teaspoons red pepper flakes\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 teaspoon salt\", \"name\": \"ingredients\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+        "action_time": "2017-10-17T20:10:30.734Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "recipe_app",
+            "recipe"
+        ],
+        "object_id": "14",
+        "object_repr": "Cranberry Brown Sugar Brie Bites",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"object\": \"1 package mini phyllo cups\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 cup diced brie\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/4 cup Truvia Brown Sugar Blend\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 cup dried cranberries\", \"name\": \"ingredients\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+        "action_time": "2017-10-17T20:13:01.407Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "recipe_app",
+            "recipe"
+        ],
+        "object_id": "15",
+        "object_repr": "Fall Harvest Salad with Apple Cider Vinaigrette",
+        "action_flag": 1,
+        "change_message": "[{\"added\": {}}, {\"added\": {\"object\": \"1/2 cup uncooked wild rice\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"2 pounds butternut squash, peeled, seeds removed & cut into 1/2 inch cubes\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 tablespoon olive oil\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"5 cups kale, center rib removed, and sliced thin\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1 medium apple, cut into 1/2 inch cubes\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 cup dried cherries\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 cup toasted pepitas (or pecans)\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"Salt\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"Black Pepper\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"2 tablespoons apple cider (or apple juice)\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"2 tablespoons apple cider vinegar\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/4 cup + 2 tablespoons olive oil\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 teaspoon Dijon mustard\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 teaspoon salt\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 teaspoon pepper\", \"name\": \"ingredients\"}}, {\"added\": {\"object\": \"1/2 teaspoon garlic powder\", \"name\": \"ingredients\"}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+        "action_time": "2017-10-17T20:25:04.410Z",
+        "user": [
+            "d.bezinski@gmail.com"
+        ],
+        "content_type": [
+            "products",
+            "product"
+        ],
+        "object_id": "5",
+        "object_repr": "Product object",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"price\"]}}]"
+    }
+}
+]
