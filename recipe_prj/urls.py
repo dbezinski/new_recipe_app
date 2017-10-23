@@ -10,6 +10,7 @@ from recipe_app import views
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^$', views.IndexView.as_view(), name='index'),
     url(r'^recipe_app/', include('recipe_app.urls')),
 
     #Auth URLs

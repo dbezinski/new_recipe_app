@@ -22,7 +22,7 @@
 
                                 {%csrf_token%}
                                 <script
-                                    src="https://checkout.stripe.com/checkout.js/" class="stripe-button"
+                                    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
                                     data-key="pk_test_lRJ210v4A3Z1wdwpi5469nZj"
                                     data-amount="{% widthratio product.price 1 100 %}"
                                     data-name="{{ product.name }}"
