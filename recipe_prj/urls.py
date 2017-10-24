@@ -25,8 +25,7 @@ urlpatterns = [
     #Products URLs:
     url(r'^products/$', product_views.all_products, name='products'),
     url(r'payment-accepted/$', views.payment_accepted, name='payment-accepted'),
-    url(r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT, 'show_indexes': True, }),
+    (r'^media/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT, 'show_indexes': True }),
 ]
-
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
