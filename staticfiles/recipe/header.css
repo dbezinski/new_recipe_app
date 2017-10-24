@@ -1,0 +1,22 @@
+.text-effect {
+    list-style: none;
+    font-family: tb, Arial, serif;
+}
+
+.text-effect li {
+    display: inline-block;
+    font-weight: 300;
+    font-size: 32px;
+    opacity: 1;
+    transition: all 1.5s ease;
+}
+
+.text-effect.hidden1 li {
+    opacity: 0;
+}
+
+.text-effect.hidden1 li:nth-child(1) { transform: translateX(-200px) translateY(0px);}
+
+.text-effect.hidden1 li:nth-child(2) { transform: translateX(0px) translateY(200px);}
+
+.text-effect.hidden1 li:nth-child(3) { transform: translateX(200px) translateY(0px);}
