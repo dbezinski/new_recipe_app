@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4cb9c0c-9811-4c19-b408-299ae295318a" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/media/510-RXKqsdL._SX374_BO1204203200_.jpg" afterPath="$PROJECT_DIR$/static/media/media/510-RXKqsdL._SX374_BO1204203200_.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/media/510OFxaWOQL._SX411_BO1204203200_.jpg" afterPath="$PROJECT_DIR$/static/media/media/510OFxaWOQL._SX411_BO1204203200_.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/static/media/eyCGCgAAQBAJ.jpg" afterPath="$PROJECT_DIR$/static/media/media/eyCGCgAAQBAJ.jpg" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recipe_app/static/js/h1_script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recipe_app/static/recipe/blog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recipe_app/static/recipe/detail.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recipe_app/static/recipe/fonts/brajanusbricks.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recipe_app/static/recipe/footer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recipe_app/static/recipe/header.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recipe_app/static/recipe/hover.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recipe_app/static/recipe/images/bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recipe_app/static/recipe/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/recipe_app/static/recipe/style.css" afterPath="" />
     </list>
     <ignored path="recipe_prj.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,7 +46,7 @@
       <file leaf-file-name="base.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/settings/base.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="674">
+            <state relative-caret-position="1202">
               <caret line="111" column="27" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
               <folding />
             </state>
@@ -263,38 +270,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="media" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recipe_prj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recipe_prj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="settings" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recipe_prj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recipe_prj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="reusable_blog" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -380,24 +355,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="products" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recipe_prj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recipe_prj" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="recipe_app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1236,7 +1193,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/settings/base.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="674">
+        <state relative-caret-position="1202">
           <caret line="111" column="27" selection-start-line="111" selection-start-column="27" selection-end-line="111" selection-end-column="27" />
           <folding />
         </state>
