@@ -47,8 +47,8 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/recipe_app/templates/recipe_app/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="18" column="80" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="80" />
+            <state relative-caret-position="180">
+              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -1252,8 +1252,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/recipe_app/templates/recipe_app/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="18" column="80" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="80" />
+        <state relative-caret-position="180">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           <folding />
         </state>
       </provider>
