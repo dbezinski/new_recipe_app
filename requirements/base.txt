@@ -27,4 +27,3 @@ urllib3==1.22
 Werkzeug==0.12.2
 wheel==0.24.0
 whitenoise==3.3.1
-git+https://github.com/dbezinski/new_recipe_app
