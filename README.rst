@@ -6,7 +6,7 @@ Recipe App
 -----------
 
 This is a Django App designed to be a source of ideas for cooking recipes with ingredients you might have at home.
-You can use the search box on the home page to search for recipes by recipe name or ingredient. Using the navigation you
+You can use the search box on the home page to search for recipes by recipe name. Using the navigation you
 may end up in our blog section, where you can share ideas with other users, or if you want to tell us one of your recipes,
 you can do so by clicking on "Add Recipe" (you can chose not to tell your secret ingredient :) It is up to you).
 If you know someone who love cooking healthy food, or want to make a good present, or you are just passionate about food, please
