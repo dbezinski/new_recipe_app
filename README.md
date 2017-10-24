@@ -54,7 +54,6 @@ Detailed documentation is in the "docs" directory.
     <link rel="stylesheet" href="{% static "css/blog.css" %}">
 
 5. Add a link to the blog in the base.html
-	<li><a href="/blog/">Our Blog</a></li>
 
 
 ## Hosting
