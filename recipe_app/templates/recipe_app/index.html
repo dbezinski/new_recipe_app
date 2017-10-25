@@ -3,6 +3,7 @@
 
 
     <div class="row panel form-container">
+    <div class="col-sm-12">
         <h1 class="hidden-xs">
             <ul class="text-effect hidden1">
                 <li>G</li><li>reat Food, Fas</li><li>t</li>
@@ -21,14 +22,14 @@
             {% endfor %}
         </ul>
 
-        <form class="form-wrapper cf container-fluid" method="GET" action="">
+        <form class="form-wrapper cf container-fluid col-7" method="GET" action="">
             <input type="text" name="q" placeholder="Search here..." value="{{ request.GET.q }}">
             <button type="submit">Search</button>
         </form>
         <p class="info">Do you have only few ingredients at home and don’t know what to make?<br>
 
         </p>
-
+    </div>
     </div>
 {% endblock %}
 

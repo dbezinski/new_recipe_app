@@ -8,22 +8,12 @@
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -o-border-radius: 5px;
-}
+  overflow: auto;
 
-#product-img{
-  float:left;
-  text-align:center;
-  width:35%;
-  padding:4% 0;
-  border-radius: 5px 0 0 5px;
-  -webkit-border-radius: 5px 0 0 5px;
-  -moz-border-radius: 5px 0 0 5px;
-  -o-border-radius: 5px 0 0 5px;
-  position:relative;
 }
 
 #product-info{
-  padding:2%;
+  padding: 20px;
   width:65%;
   float:left;
   height:100%;
@@ -57,12 +47,15 @@ h2{
 
 
 
-.nike-logo{
-  width:80%;
+.recipe_img{
   text-align: center;
-    border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px;
+  float: left;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -o-border-radius: 5px;
-
+  }
+.wrapper {
+  padding: 20px;
 }
