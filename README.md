@@ -16,18 +16,18 @@ use our Product page to purchase one of our books.
 
 "Homemade Cinnamon Dolce Latte", 
 "Cheesy Firecracker Baked Chicken Taquitos", 
-"Honey Chipotle Slow Cooker Meatballs"
-"Greek Yogurt Spicy Corn Dip"
-"Spicy Basil Hummus"
-"Bacon & Berry Kale Salad with Honey Lemon Vinaigrette"
-"Lemon Berry Cheesecake Dip"
-"Caprese Avocado Toast"
-"5 Minute Bruschetta Hummus"
-"Grilled Huli Huli Chicken Kabobs"
-"Cantina Style Salsa with Homemade Corn Tortilla Chips"
-"Sriracha Bacon Beer Cheese Dip"
-"Sweet Chili Glazed Meatballs"
-"Cranberry Brown Sugar Brie Bites"
+"Honey Chipotle Slow Cooker Meatballs", 
+"Greek Yogurt Spicy Corn Dip", 
+"Spicy Basil Hummus", 
+"Bacon & Berry Kale Salad with Honey Lemon Vinaigrette", 
+"Lemon Berry Cheesecake Dip", 
+"Caprese Avocado Toast", 
+"5 Minute Bruschetta Hummus", 
+"Grilled Huli Huli Chicken Kabobs", 
+"Cantina Style Salsa with Homemade Corn Tortilla Chips", 
+"Sriracha Bacon Beer Cheese Dip", 
+"Sweet Chili Glazed Meatballs", 
+"Cranberry Brown Sugar Brie Bites", 
 "Fall Harvest Salad with Apple Cider Vinaigrette"
 
 ## This App is built with:
