@@ -18,7 +18,8 @@ class IndexView(generic.ListView):
     def get_queryset(self):
         query = self.request.GET.get('q')
         if query:
-            return Recipe.objects.filter(recipe_name__icontains=query)
+            results = Recipe.objects.filter(recipe_name__icontains=query)
+            return results
 
 class DetailView(generic.DetailView):
     model = Recipe

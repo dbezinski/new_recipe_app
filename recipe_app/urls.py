@@ -7,6 +7,6 @@ urlpatterns = [
     # /recipe_app/recipe/add/
     url(r'recipe/add/$', views.RecipeCreate.as_view(), name='recipe-add'),
 
-    url(r'^$', views.get_index, name='index'),
+    #url(r'^$', views.get_index, name='index'),
 
     ]

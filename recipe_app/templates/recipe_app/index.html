@@ -13,6 +13,9 @@
         <h3>Search for recipes you can make with the ingredients you might have at home.</h3><br><br>
         <ul>
         <h4>Look what we found!</h4>
+        {% if not all_recipes %}
+                    <li>No results found.</li>
+                {% endif %}
             {% for recipe in all_recipes %}
                 <li>
                     <a href="{% url 'detail' recipe.id %}">

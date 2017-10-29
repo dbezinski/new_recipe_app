@@ -6,7 +6,7 @@
                 <tr>
                     <th>Product Image</th>
                     <th>Name</th>
-                    <th>Description</th>
+                    <th class = "hidden-xs">Description</th>
                     <th>Price</th>
                     <th></th>
                 </tr>
@@ -16,7 +16,7 @@
                     <tr>
                         <td><img src="{{ product.image.url }}" class="img-responsive" alt=""></td>
                         <td>{{ product.name }}</td>
-                        <td>{{ product.description }}</td>
+                        <td class = "hidden-xs">{{ product.description }}</td>
                         <td>{{ product.price }}</td>
                         <td><form action="/payment-accepted/" method="POST">
 
