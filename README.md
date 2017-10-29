@@ -15,6 +15,7 @@ use our Product page to purchase one of our books.
 ## Recipes Available:
 
 "Homemade Cinnamon Dolce Latte"
+
 "Cheesy Firecracker Baked Chicken Taquitos"
 "Honey Chipotle Slow Cooker Meatballs"
 "Greek Yogurt Spicy Corn Dip"
